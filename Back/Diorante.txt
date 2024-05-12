@@ -1,0 +1,94 @@
+									Relatorio do Diorante
+
+12/04*Resolvido a parte da seção ele inicia e funciona normalmente, mas so retorna dados especificos. 
+
+
+CLIENTE:
+	SELECT:
+		12/04*(somente tem que referenciar ao login)Listagem de consultas agendadas/prontuario se for possivel(colocar data no banco)
+		12/04*(FEITO)-Listagem de clinicas cadastradas
+		14/04*(FEITO) Pets Cadastrados
+	UPDATE: --- como alterar unitariamente
+		Alterar perfil(dados de sua conta) 
+		Alterar agendamento/consultas*
+		Alterar pets cadastrados*
+	INSERT:
+		Agendamento
+		16/04*(em andamento-falta_insert)Inserir Pets
+	DELETE:
+		Cancelar/desmarcar consultas
+
+CLINICA:
+	SELECT:
+		
+		12/04*(Feito)(somente fazer quando iniciar a seção da clinica ele automaticamente diz que seria os agendamentos da propria)Listagem de agendamento(Da sua propria clinica)
+		16/04*(em andamento-falta_select)Lista de clientes (cadastrados) que fizeram agendamento ou algum procedimento na clinica
+		16/04*(em andamento-falta_select)Veterinarios cadastrados
+	UPDATE:
+		Alterar usuarios
+		Alterar/Atualizar o plano
+	INSERT:
+		
+		16/04*(em andamento-falta_insert)Incluir veterinarios(so tem um veterinario por clinica) e suas especialidades(ao inves de estar o id das especialidades em clinicas mudar para estar na especialidades o id da clinica, para ter mais de uma especialidade em uma so clinica)*
+		16/04*(em andamento-falta_insert)Incluir clientes
+
+		**Como fazer para fazer um tipo de calendario que atualiza quando a pessoa marca a consulta e com isso demonstra pra ela os horarios e datas disponiveis
+
+								Duvidas:
+COMO FAZ PARA QUE QUANDO FOR REALIZADO O CADASTRO, ALTERAÇAO DE AGENDAMENTO OU DESMARCAR UM AGENDAMENTO, CHEGUE UM EMAIL OU NOTIFICAÇÂO SMS.
+*FUTURAMENTE()COMO VERIFICAR AO LOGAR MANDAR UM EMAIL COM UM CODIGO E ESSE CODIGO DEVERA SER ESCRITO APOS O LOGIN E SENHA
+SERIA O CASO OUTRA TABELA A PARTE DE CADA CLINICA EM ESPECIFICO?
+
+
+						Banco:
+*incluir veterinarios
+*normalizar enderecos(tanto do cliente quanto da clinica deixar iguais)
+*normalizar login
+*verificar se coloca a coluna endereço e estado e bairro no login ou mantem em suas devidos tipos de usuarios
+*(datetime)colocar horarios no agendamento das consultas
+*colocar status em consultas (ou seja, se estiver agendada, ou se estiver sido cancelada, ou remarcada)
+*horario de atendimento da clinica
+Incluir quais especies sao atendidos de acordo com a clinica
+
+
+
+
+							Para Melhoria do CODIGO:
+
+Função no php para diminuir q quantidade de arquivos em php
+
+
+
+								Falta:
+- Landing Page
+- implementação de planos
+- pagamento de planos
+- notificaçoes
+- regular o calendario de acordo com as consultas ja agendadas
+- colocar para nao cadastrar mais de um veterinario com o mesmo CRMV
+- agendamento pela clinica, ou seja a clinica tem que cadastrar o cliente e ele agendar, ou agendar sem cadastro.
+- avaliação de clinicas, ou do site por paciente --
+- Relatorio semanal ou mensal de consultas --feito
+- Alterar e desmarcar consulta
+- filtro de clinicas abertas e clinicas 24 horarios
+- termos no cadastro tanto do cliente quanto da clinica
+- placeholder no cadastro do veterinario (descrição:especificação)
+- marca d'agua do logo
+
+							Dificuldade
+seleção de horarios para deixar os horarios marcados nao selecionaveis.
+
+
+
+texto de apresentação;
+Problemas e alternativas:
+
+1. Superlotação de clinicas.
+2. Dificuldade de Alteração de Consultas(Cancelamento e remarcar consultas), alem da dificuldade de alteração quando se é marcado diretamente na clinica ou por telefone pode se acontecer erros de comunicação entre o cliente e a clinica.
+3. Perda de Clientes, essa perda de clientes pode ser ocasionado pelas dificuldades que a pessoa pode ter para realizar o agendamento, e o acesso a informações sobre o agendamento e a necessidade de uma consulta ou uma vacina para seu pet.
+
+SOLUÇÂO:
+1. Maior organização, Rapidez no atendimento,agendamento online(somente ida a clinica no dia da consulta). 
+2. Fluidez e automação, com um sistema de agendamento. 
+3. Chamativo para clientes, ou seja, algo que demonstre para o cliente o que e preciso se fazer, mostrando seus beneficios para o cuidado do seu pet.
+

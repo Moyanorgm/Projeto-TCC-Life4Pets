@@ -1,0 +1,19 @@
+Mostrar na pagina do cliente após login:
+- Pets cadastrados: ira mostrar todos os pets cadastrados pelo cliente (e suas consultas...)
+- Agendar: ira ser realizado o agendamento das consultas tendo com esse as opções se seu pet ja esta cadastrado ou nao esta por meio de um radio button, se estiver ira seleciona-lo atraves de um select, se nao ira mostrar perguntas para o cadastro dele. 
+- Historico de agendamento: vai conter tanto os agendamentos concluidos como os em andamento, sendo diferenciados e selecionados por um select.
+- Perfil ao clicar no nome da pessoa no canto superior direito
+- clinicas: neles voce pode escolher a opçao de ver clinicas proximas ou todas as clinicas.
+Após feito isso pensar se for o caso, pensar em algo mais......
+
+
+Mostrar na pagina clinica após login:
+- Agendamentos: irá mostrar as consultas marcadas dentre delas irá mostrar todos os dados contendo a especialidade do medico e o nome do profissional indicado.
+- Veterinarios: contendo todos os veterinarios da clinica e suas informações.
+- Clientes cadastrados com agendamento em sua clinica
+- incluir clientes
+- Planos: irá mostrar os planos que a lif4pets oferece e irá estar selecionado o plano que a clinica contratou
+
+Após feito isso pensar se for o caso, pensar em algo mais......
+
+inicializaçao de section da respectiva clinica ou do respectivo usuario após login
